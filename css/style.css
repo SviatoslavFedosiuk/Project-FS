@@ -1,0 +1,32 @@
+:root{
+    --title-text-color: #292F36;
+    --mini-text-color: #4D5053;
+    --decoration-text-color: #CDA274;
+    --bcg-color: #FFFFFF;
+    --arrow-bcg-color: #F4F0EC;
+    --posts-bcg-color: #E7E7E7;
+    --add-color: #E5E5E5;
+}
+body{
+    font-family: Jost;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* header */
+
+.header-list{
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+}
+.header-link{
+    color: var(--title-text-color);
+}
+.header-link:hover{
+color: var(--decoration-text-color);
+}
