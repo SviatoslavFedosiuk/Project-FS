@@ -15,3 +15,7 @@ img {
 div{
     list-style: none;
 }
+time{
+    margin: 0;
+    padding: 0;
+}
