@@ -7,9 +7,54 @@
     --posts-bcg-color: #E7E7E7;
     --add-color: #E5E5E5;
 }
+/* шрифти */
 body{
     font-family: Jost;
 }
+.dream-title{
+    font-family: "DM Serif Display";
+}
+.more-title{
+    font-family: "DM Serif Display";
+}
+.call-title{
+    font-family: "DM Serif Display";
+}
+.think-title{
+    font-family: "DM Serif Display";
+}
+.projects-title{
+    font-family: "DM Serif Display";
+}
+.numbers-title{
+    font-family: "DM Serif Display";
+}
+.blogs-title{
+    font-family: "DM Serif Display";
+}
+.join-title{
+    font-family: "DM Serif Display";
+}
+.footer-title{
+    font-family: "DM Serif Display";
+}
+.adress-title{
+    font-family: "DM Serif Display";
+}
+.winery-title{
+font-family: "DM Serif Display"
+}
+.minimalist-title{
+font-family: "DM Serif Display"
+}
+.modern-title{
+font-family: "DM Serif Display"
+}
+.scandinavian-title{
+font-family: "DM Serif Display"
+}
+
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -30,3 +75,8 @@ body{
 .header-link:hover{
 color: var(--decoration-text-color);
 }
+
+/* main */
+
+/* footer */
+
