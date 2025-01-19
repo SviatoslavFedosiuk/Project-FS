@@ -11,48 +11,6 @@
 body {
   font-family: Jost;
 }
-.dream-title {
-  font-family: "DM Serif Display";
-}
-.more-title {
-  font-family: "DM Serif Display";
-}
-.call-title {
-  font-family: "DM Serif Display";
-}
-.think-title {
-  font-family: "DM Serif Display";
-}
-.projects-title {
-  font-family: "DM Serif Display";
-}
-.numbers-title {
-  font-family: "DM Serif Display";
-}
-.blogs-title {
-  font-family: "DM Serif Display";
-}
-.join-title {
-  font-family: "DM Serif Display";
-}
-.footer-title {
-  font-family: "DM Serif Display";
-}
-.adress-title {
-  font-family: "DM Serif Display";
-}
-.winery-title {
-  font-family: "DM Serif Display";
-}
-.minimalist-title {
-  font-family: "DM Serif Display";
-}
-.modern-title {
-  font-family: "DM Serif Display";
-}
-.scandinavian-title {
-  font-family: "DM Serif Display";
-}
 /* container */
 .container {
   width: 1230px;
@@ -63,7 +21,229 @@ body {
 }
 
 /* header */
+.header{
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.header>.container {
+  display: flex;
+  align-items: center;
+}
 
+.header-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 505px;
+  padding-top: 12px;
+  padding-bottom: 19px;
+}
+.header-item > .header-link{
+  color: var(--title-text-color);
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+.header-item > .header-link:hover {
+  color: var(--decoration-text-color);
+  font-family: Jost;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+}
 /* main */
 
+/* 1 */
+
+.dream{
+  padding-top: 188px;
+  padding-bottom: 260px;
+  text-align: left;
+  background-image: url(../images/sofasq.png);
+}
+.dream-title{
+  color: var(--title-text-color);
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    width: 595px;
+}
+.dream-subtitle{
+  color: var(--mini-text-color);
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 577px;
+    margin-top: 19px;
+}
+.dream-button{
+  border-radius: 18px;
+  background-color: var(--title-text-color);
+  color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 34px;
+    padding-right: 67px;
+    margin-top: 35px;
+}
+
+/* 2 */
+
+.more{
+  padding-top: 175px;
+  padding-bottom: 170px;
+  text-align: center;
+}
+.more-list{
+  display: flex;
+}
+.more-title{
+  color: var(--title-text-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.22px;
+}
+/* .more-subtitle{
+  color: var(--mini-text-color);
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 317px;
+} */
+.more-subtitle:first-child {
+  color: var(--mini-text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  width: 317px;
+  margin-top: 17px;
+  margin-bottom: 48px;
+  margin-left: 42px;
+  margin-right: 41px;
+}
+.more-subtitle:nth-child(2) {
+  color: var(--mini-text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  width: 297px;
+  margin-left: 52px;
+  margin-right: 51px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+.more-subtitle:last-child {
+  color: var(--mini-text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  width: 296px;
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+.more-button{
+  color: var(--mini-text-color);
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    background-color: var(--bcg-color);
+    border: none;
+    padding-top: 20px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+/* 3 */
+
+.call{
+  padding-top: 140px;
+  padding-bottom: 139px;
+}
+
+/* 4 */
+
+.think{
+  padding-bottom: 141px;
+}
+
+
+/* 5 */
+.brands{
+  padding-bottom: 100px;
+}
+.brands-list{
+  display: flex;
+  align-items: center;
+}
+.brands-item:first-child{
+margin-right: 125px;
+}
+.brands-item:nth-child(2) {
+  margin-right: 110px;
+}
+.brands-item:nth-child(3) {
+  margin-right: 89px;
+}
+.brands-item:nth-child(4) {
+  margin-right: 112px;
+}
+
 /* footer */
+.footer{
+  padding-top: 130px;
+  padding-bottom: 36px;
+}
+.pages-list::before > .footer-title{
+content: "";
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-span{
+  padding-top: 146px;
+  display: flex;
+  justify-content: center;
+}
