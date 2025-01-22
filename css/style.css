@@ -64,6 +64,8 @@ body {
   padding-bottom: 260px;
   text-align: left;
   background-image: url(../images/sofasq.png);
+  background-repeat: no-repeat;
+
 }
 .dream-title{
   color: var(--title-text-color);
@@ -123,17 +125,6 @@ body {
     line-height: 39px;
     letter-spacing: 0.22px;
 }
-/* .more-subtitle{
-  color: var(--mini-text-color);
-    text-align: center;
-    font-family: Jost;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.22px;
-    width: 317px;
-} */
 .more-subtitle:first-child {
   color: var(--mini-text-color);
   text-align: center;
@@ -197,17 +188,158 @@ body {
 
 /* 3 */
 
-.call{
-  padding-top: 140px;
-  padding-bottom: 139px;
+.call > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-title {
+  width: 450px;
+  color: var(--title-color);
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.30;
+  letter-spacing: 0.22px;
+  margin-bottom: 42px;
+}
+
+.call-subtitle {
+  width: 531px;
+  color: var(--text-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.22px;
+}
+
+.wrap {
+  display: flex;
+}
+.wrap-button{
+  border-radius: 100px;
+    background-color: var(--arrow-bcg-color);
+    width: 93px;
+      height: 93px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      border: none;
+}
+.wrap-img{
+  margin-top: 29px;
+  margin-right: 29px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.call-link {
+  width: 93px;
+  height: 93px;
+}
+
+.call-tel {
+  color: var(--text-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.22px;
+}
+
+.call-subtitle {
+  color: var(--text-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.22px;
+  margin-bottom: 68px;
+}
+
+.call-button {
+  border-radius: 18px;
+  border: 2px solid var(--title-color);
+  background-color: var(--title-text-color);
+  color: var(--bcg-color);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.50;
+  letter-spacing: 0.72px;
+  padding-top: 21px;
+  padding-bottom: 23px;
+  padding-right: 67px;
+  padding-left: 34px;
 }
 
 /* 4 */
 
 .think{
   padding-bottom: 141px;
+  padding-top: 176px;
+}
+.think > .container{
+  border-radius: 70px;
+    background-color: var(--arrow-bcg-color);
+}
+.think-title:first-child{
+  color: var(--title-text-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px;
+    letter-spacing: 0.22px;
+    padding-top: 103px;
+}
+.think-title:nth-child(2) {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58.5px;
+  letter-spacing: 0.22px;
+  padding-bottom: 47px;
+  
+}
+.think-list{
+  display: flex;
+  padding-bottom: 121px;
+  gap: 18px;
+}
+.think-item{
+  border-radius: 30px;
+  background-color: #FFF;
+}
+.think-box{
+  display: flex;
+  padding-bottom: 37px;
+  padding-right: 49px;
+}
+.think-subtitle{
+  color: var(--mini-text-color);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    padding-bottom: 45px;
 }
 
+.think-img{
+  width: 77px;
+    height: 77px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
 
 /* 5 */
 .brands{
@@ -230,13 +362,58 @@ margin-right: 125px;
   margin-right: 112px;
 }
 
+/* 6 */
+.projects{
+  margin-top: 113px;
+  margin-bottom: 140px;
+}
+.projects-title{
+  color: var(--title-text-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+    margin-bottom: 20px;
+}
+.projects-subtitle{
+  color: var(--mini-text-color);
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+.projects-subtitle:last-child{
+      margin-bottom: 70px;
+}
+.projects-information{
+  display: flex;
+}
+.projects-button{
+  order: 1;
+  width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: none;
+}
+.projects-img{
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 31px;
+  padding-right: 30px;
+}
+
 /* 7 */
 
 
 /* 9 */
 
 .join{
-  width: 1200px;
     border-radius: 70px;
     background-color: var(--title-text-color);
     margin-left: 120px;
@@ -302,9 +479,4 @@ content: "";
 .footer-list{
   display: flex;
   justify-content: space-between;
-}
-.footer-span{
-  padding-top: 146px;
-  display: flex;
-  justify-content: center;
 }
