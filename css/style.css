@@ -421,9 +421,15 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.numbers-box{
-  border-right: 2px solid var(--decoration-text-color);
-}
+ .line-box:first-child > .numbers-box {
+   border-right: 2px solid var(--decoration-text-color);
+ }
+ .line-box:nth-child(2)>.numbers-box {
+   border-right: 2px solid var(--decoration-text-color);
+ }
+ .line-box:nth-child(3)>.numbers-box {
+   border-right: 2px solid var(--decoration-text-color);
+ }
 .line-box{
   display: flex;
     flex-direction: column;
@@ -501,9 +507,7 @@ body {
 }
 .blogs-item{
   border-radius: 62px;
-    border: 1px solid var(--posts-bcg-color);
-    width: 345px;
-      height: 515px;
+    outline: 1px solid var(--posts-bcg-color);
       justify-content: center;
       align-items: center;
 }
@@ -511,7 +515,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  gap: 19px;
 }
 .blogs-item:first-child {
   flex-basis: calc((100% - 39px) / 3);
@@ -534,35 +538,27 @@ body {
 .blogs-item:last-child {
   flex-basis: calc((100% - 39px) / 3);
 }
-.blogs-button{
-  display: flex;
-    justify-content: center;
-    align-items: top;
-    margin-left: auto;
-    order: 1;
-      width: 70px;
-      height: 70px;
-      border-radius: 100px;
-      border: none;
-}
 
 .blogs-image {
   width: 100%;
   width: 345px;
     height: 296px;
     border-radius: 45px 45px 0px 0px;
-    margin-top: 21px;
-    margin-right: 21px;
-    margin-left: 21px;
-    margin-bottom: 16px;
+    padding-top: 21px;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-bottom: 16px;
 }
 .blogs-title{
-  margin-right: 32px;
-  margin-left: 21px;
-  margin-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 21px;
+  padding-bottom: 10px;
 }
 .blogs-subtitle{
-  margin-left: 21px;
+  padding-left: 21px;
+}
+.blogs-wrap{
+  display: flex;
 }
 
 /* 9 */
@@ -662,7 +658,7 @@ background-color: var(--decoration-text-color);
   display: flex;
   gap: 40px;
 }
-.footer-link{
+.footer-ref{
   color: var(--mini-text-color);
     font-family: Jost;
     font-size: 22px;
@@ -696,9 +692,19 @@ background-color: var(--decoration-text-color);
 }
 .pages-list{
   margin-right: 113px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .explore-list{
   margin-right: 110px;
-  gap: 30px;
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.address-list{
+  display: flex;
+    flex-direction: column;
+    gap: 29px;
 }
