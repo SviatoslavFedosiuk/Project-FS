@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 /* header */
@@ -461,9 +461,6 @@ body {
   display: flex;
   flex-direction: row-reverse;
 }
-.projects-box{
-  margin-bottom: 61px;
-}
 .projects-button{
   width: 70px;
     height: 70px;
@@ -537,6 +534,7 @@ body {
 /* 8 */
 .blogs{
   padding-top: 143px;
+  padding-bottom: 141px;
 }
 .blogs-ftext{
   color: var(--title-text-color);
@@ -547,8 +545,8 @@ body {
     font-weight: 400;
     line-height: 62.4px;
     letter-spacing: 0.22px;
-    padding-top: 15px;
-    padding-bottom: 21px;
+    margin-top: 15px;
+    margin-bottom: 21px;
 }
 .blogs-title{
   color: var(--title-text-color);
@@ -622,7 +620,7 @@ body {
 .join > .container{
     border-radius: 70px;
     background-color: var(--title-text-color);
-    margin-top: 141px;
+    /* margin-top: 141px; */
     padding-top: 100px;
     padding-left: 333px;
     padding-right: 333px;
@@ -672,7 +670,6 @@ background-color: var(--decoration-text-color);
 /* footer */
 .footer{
   padding-top: 130px;
-  padding-bottom: 36px;
 }
 .footer-subtitle{
   color: var(--mini-text-color);
@@ -682,34 +679,45 @@ background-color: var(--decoration-text-color);
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-    margin-top: 15px;
-      margin-bottom: 29px;
-      margin-right: 16px;
-      width: 326px;
-
+    width: 326px;
 }
 .add{
-  margin-top: 146px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: center;
+
 }
 .footer-link > .footer-img{
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 .add > .footer-subtitle{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 36px;
+color: var(--mini-text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  width: 789px;
 }
 .links{
   display: flex;
 }
 .footer-list{
   display: flex;
-  gap: 16px;
   margin-top: 50px;
+  margin-bottom: 110px;
 }
 .img-list{
   display: flex;
   gap: 40px;
+  margin-top: 30px;
+}
+.footer-item:first-child > .footer-title{
+  margin-left: 83px;
 }
 .footer-ref{
   color: var(--mini-text-color);
@@ -740,23 +748,25 @@ background-color: var(--decoration-text-color);
     line-height: 33px;
     letter-spacing: 0.22px;
 }
-.footer-item:nth-child(5){
-  gap: 30px;
-}
 .pages-list{
   display: flex;
   flex-direction: column;
   gap: 30px;
-
+  margin-right: 113px;
+  margin-left: 83px;
 }
 
 .explore-list{
   display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-right: 103px;
 }
 .address-list{
   display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.address-item:first-child{
+  width: 325px;
 }
