@@ -23,7 +23,7 @@ body {
 
 /* header */
 .header{
-  padding-top: 0;
+  padding-top: 12px;
   padding-bottom: 30px;
 }
 .header>.container {
@@ -34,9 +34,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-left: 505px;
-  padding-top: 12px;
-  padding-bottom: 19px;
 }
 .header-item > .header-link{
   color: var(--title-text-color);
@@ -329,7 +326,7 @@ body {
 .think-box{
   display: flex;
   align-items: center;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .information-box{
   margin-left: 20px;
@@ -556,8 +553,8 @@ body {
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0.5px;
-    padding-top: 16px;
-    padding-bottom: 20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 .blogs-subtitle{
   color: var(--mini-text-color);
@@ -593,7 +590,7 @@ body {
   justify-content: center;
   gap: 19px;
   row-gap: 40px;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 .blogs-image {
@@ -620,7 +617,6 @@ body {
 .join > .container{
     border-radius: 70px;
     background-color: var(--title-text-color);
-    /* margin-top: 141px; */
     padding-top: 100px;
     padding-left: 333px;
     padding-right: 333px;
@@ -635,7 +631,7 @@ body {
     font-weight: 400;
     line-height: 75px;
     letter-spacing: 0.22px;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .join-subtitle{
   color: #FFF;
@@ -645,7 +641,7 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-    padding-bottom: 31px;
+    margin-bottom: 31px;
 }
 .join-button{
   
