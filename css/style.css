@@ -360,6 +360,19 @@ body {
     letter-spacing: 0.22px;
     margin-bottom: 20px;
 }
+.project-position{
+  font-size: medium;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  background-color: #292f36ad;
+  width: 100%;
+}
+.position-box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 .projects-subtitle{
   color: var(--mini-text-color);
     text-align: center;
